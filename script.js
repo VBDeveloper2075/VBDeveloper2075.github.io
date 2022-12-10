@@ -1,11 +1,15 @@
-let app= document.getElementById ('typewriter');
+var app = document.getElementById('app');
 
-let typewriter= new Typewriter(app,{
-    loop: true,
-    delay: 75
+var typewriter = new Typewriter(app, {
+    loop: true
 });
 
-typewritter
-    .typeString('Estamos ahi mismo')
-    .pauseFor(200)
-    .start()
+typewriter.typeString('Quiero Ver Una Demostración')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('Fácil de Implementar y ...')
+    .pauseFor(2500)
+    .deleteChars(3)
+    .typeString('<strong>GRATIS!</strong>')
+    .pauseFor(2500)
+    .start();
