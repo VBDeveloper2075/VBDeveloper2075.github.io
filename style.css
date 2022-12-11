@@ -7,23 +7,13 @@ body{
     overflow-x: hidden;
 }
 
-/* -------- CARRUSEL -------- */
-
-.carousel-inner {
-    /* max-height: 33rem !important; */
-}
-
 /* PANTALLA EXTRA SM */
 
 @media (max-width: 768px) {
+
     #intro {
         width:90% !important;
     }
-
-
-
- 
-
 
     #bg-contacto {
 
@@ -32,7 +22,7 @@ body{
     }
 
     #img-equipo{
-        max-height:20rem !important;
+        max-height:20rem;
         width:90%;
     }
     .wrapper-local {
@@ -122,7 +112,7 @@ body{
         text-align: center ;
         padding: 20px;
     }
-/*      FORMULARIO   /*=========================FOOTER================================*/
+/*      FORMULARIO   */
 
 footer {
     background: #1b2a4e;
