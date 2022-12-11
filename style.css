@@ -46,7 +46,7 @@ body{
 @media (max-width:576px) {
     .icono-wrap{
         flex-wrap: wrap;
-        justify-content: center !important;
+        justify-content: center;
     }  
 
 
@@ -68,9 +68,10 @@ body{
     width: 50%; 
     margin-left: 100px;
     padding-top: 150px;
-
 }
 };
+
+
  /* MEDIA QUERIES PARA PANTALLA ANCHA */
 @media (max-width:1200px){
     #local{
@@ -117,6 +118,10 @@ body{
 
     }
 
+    .postulate{
+        text-align: center ;
+        padding: 20px;
+    }
 /*      FORMULARIO   /*=========================FOOTER================================*/
 
 footer {
@@ -132,20 +137,19 @@ footer p{
     padding: 0 8px;
     color:#f3f3f3;
 }
- */
 
-    #bg-contacto {
+#bg-contacto {
 
-        position: relative;
-        top: -130px;
-    }
+    position: relative; 
+    padding-top: -130px; 
+}
 
-    #seccion-contacto {
+#seccion-contacto {
 
-        background-color: #fed532;
-        min-height: 500px;
-        position: relative;
-    }
+    background-color: #fed532;
+    min-height: 500px;
+    position: relative;
+}
 
     
 
