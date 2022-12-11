@@ -10,24 +10,19 @@ body{
 /* -------- CARRUSEL -------- */
 
 .carousel-inner {
-    max-height: 33rem !important;
+    /* max-height: 33rem !important; */
 }
 
 /* PANTALLA EXTRA SM */
 
 @media (max-width: 768px) {
-    #intro, #equipo {
+    #intro {
         width:90% !important;
     }
 
-    #equipo p {
-        display: none;
-    }
 
-    .servicio-fila{
-        width: 100% !important;
-        text-align: center;
-    }
+
+ 
 
 
     #bg-contacto {
@@ -55,12 +50,6 @@ body{
     }  
 
 
-.mapa{
-    padding-top: 40px;
-    background: url(./fav-3.jpg);
-    width:100%;
-    height: 500px;
-}
 
 #local{
     margin-top: 50px;
@@ -71,8 +60,8 @@ body{
 }
 
 .mapa {
-    width:100%;
-    height:100px;
+    width:50%;
+    height:50px;
 }
 
 .wrapper-local {
@@ -171,4 +160,8 @@ footer p{
 #iconos {
     font-size: 26px;
     padding: 0 8px;
+}
+
+.desarrollador{
+    margin:auto;
 }
