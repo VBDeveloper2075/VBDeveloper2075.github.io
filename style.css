@@ -50,8 +50,8 @@ body{
 }
 
 .mapa {
-    width:50%;
-    height:50px;
+    max-height:20rem;
+        width:90%
 }
 
 .wrapper-local {
